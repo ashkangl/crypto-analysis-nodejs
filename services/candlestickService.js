@@ -7,11 +7,13 @@ function mapCoinbaseKline(data, symbol, timeframe) {
     symbol,
     timeframe,
     createdAt: new Date(data[0] * 1000),
-    pricesLow: parseFloat(data[1]),
-    pricesHigh: parseFloat(data[2]),
-    pricesOpen: parseFloat(data[3]),
-    pricesClose: parseFloat(data[4]),
-    volume: parseFloat(data[5])
+    prices:{
+      low: parseFloat(data[1]),
+      high: parseFloat(data[2]),
+      open: parseFloat(data[3]),
+      close: parseFloat(data[4]),
+      volume: parseFloat(data[5])
+    }
   };
 }
 

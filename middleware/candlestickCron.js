@@ -14,7 +14,7 @@ function scheduleCandlestick() {
         await fetchAndStoreCandlesticks();
     });
 
-    cron.schedule("0 */4 * * *", async () => {
+    cron.schedule("0 */6 * * *", async () => {
         await fetchAndStoreCandlesticks();
     });
 

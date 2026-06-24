@@ -84,7 +84,7 @@ export async function addIndicatorsAndSave(candle, source) {
             : null
     };
 
-    await CandleExternal.updateOne(
+    await Candlestick.updateOne(
         {
         symbol: candle.symbol,
         timeframe: candle.timeframe,
