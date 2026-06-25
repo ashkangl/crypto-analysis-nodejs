@@ -154,6 +154,16 @@ GET /last-candle/BTC?timeframe=5m
 }
 ```
 
+## Screenshots
+
+### Project Structure
+
+![Project Structure](docs/structure.png)
+
+### API Response
+
+![API Response](docs/last-candle.png)
+
 ## Technologies
 
 * Node.js
