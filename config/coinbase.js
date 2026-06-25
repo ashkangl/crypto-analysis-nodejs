@@ -12,16 +12,17 @@ export const COINS = {
   "SHIB": "SHIB-USD",
   "LINK": "LINK-USD",
   "UNI": "UNI-USD",
-  "1INCH": "1INCH-USD",
   "AAVE": "AAVE-USD",
   "ALGO": "ALGO-USD",
-  "APE": "APE-USD",
   "ARB": "ARB-USD",
+  "COMP": "COMP-USD",
   "PAXG": "PAXG-USD",
   "SUI": "SUI-USD",
+  "TRUMP": "TRUMP-USD",
 };
 
 export const TIMEFRAMES = {
+  "1m": 60,
   "5m": 300,
   "15m": 900,
   "1h": 3600,

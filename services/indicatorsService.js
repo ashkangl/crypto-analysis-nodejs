@@ -46,7 +46,7 @@ export async function addIndicatorsAndSave(candle, source) {
 
     const atrPercent =
         atr14 != null
-        ? (atr14 / close) * 100
+        ? ((atr14 / close) * 100).toFixed(3)
         : null;
 
     // Save Indicators

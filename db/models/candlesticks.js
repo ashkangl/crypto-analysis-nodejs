@@ -16,6 +16,7 @@ const candlestickSchema = new mongoose.Schema({
         ema200:Number,
         sma20:Number,
         rsi:Number,
+        atr14:Number,
         atrPercent: Number
     },
     distances: {
@@ -23,14 +24,6 @@ const candlestickSchema = new mongoose.Schema({
         ema20: Number,
         ema50: Number,
         ema200: Number,
-    },
-    trend: {
-        ema9Above20: Boolean,
-        ema20Above50: Boolean,
-        ema50Above200: Boolean,
-        ema9_20Spread: Number,
-        ema20_50Spread: Number,
-        ema50_200Spread: Number
     },
     createdAt: { type: Date, default: Date.now }
 
