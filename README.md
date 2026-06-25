@@ -172,6 +172,14 @@ GET /last-candle/BTC?timeframe=5m
 * Mongoose
 * Coinbase Exchange API
 
+## Author
+
+Ashkan Golzad
+
+Full Stack Developer
+
+Node.js • Next.js • FastAPI • MongoDB • Cryptocurrency Analytics
+
 ## License
 
 MIT
